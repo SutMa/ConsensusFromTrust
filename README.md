@@ -1,5 +1,5 @@
 # ConsensusFromTrust
-distributed consensus algorithm given a graph of "trust” relationships between nodes. This is an alternative method of resisting Sybil attacks and achieving consensus; it has the benefit of not “wasting” electricity like proof-of-work does.
+Distributed consensus algorithm given a graph of "trust” relationships between nodes. This is an alternative method of resisting Sybil attacks and achieving consensus; it has the benefit of not “wasting” electricity like proof-of-work does.
 
 
 The network is a directed random graph, where each edge represents a trust relationship. Forexample, if there is an A → B edge, it means that Node B listens to transactions broadcast by node A.
